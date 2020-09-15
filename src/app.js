@@ -10,10 +10,11 @@ console.log('Javascript file src file')
 
 
 const app = express()
+const port = process.env.PORT || 3000
 
 
-app.listen(3000, ()=>{
-    console.log('Network: Server is up and listening on port 3000')
+app.listen(port, ()=>{
+    console.log('Network: Server is up and listening on port '+port)
 })
 
 console.log(__dirname)
