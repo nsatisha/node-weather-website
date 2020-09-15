@@ -7,11 +7,7 @@ const error = document.getElementsByClassName('.error-content');
 console.log(result);
 var errorcondition=''
 
-/* <p id="forecast"></p>
-<p id="location"></p>
-<p id="geography"></p>
-<p id="temperature"></p>
-<p id="feels"></p> */
+
 
 weatherform.addEventListener('submit',(event)=>{
     event.preventDefault()
